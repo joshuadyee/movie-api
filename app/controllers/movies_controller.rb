@@ -1,6 +1,6 @@
 class MoviesController < ApplicationController
   def index
-    movie = Movie.last
-    render json: {movie: movie}
+    @movies = Movie.all
+    render template: "movies/index"
   end
 end
