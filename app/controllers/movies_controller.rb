@@ -1,5 +1,6 @@
 class MoviesController < ApplicationController
   def index
-    render json: {hi: "hello"}
+    movie = Movie.last
+    render json: {movie: movie}
   end
 end
