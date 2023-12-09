@@ -5,3 +5,5 @@ json.main_cast movie.main_cast
 json.genre movie.genre
 json.runtime movie.runtime
 json.synopsis movie.synopsis
+json.created_at movie.created_at
+json.updated_at movie.updated_at
